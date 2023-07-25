@@ -11,26 +11,25 @@
     <header>
       <nav>
         <div class="title">
-          <h2>Cocktails</h2>
+          <h1>Cocktails</h1>
         </div>
           <div class="top-buttons">
-            <a href="" class="nav-button">By Name</a>
-            <a href="" class="nav-button">By Drink</a>
-            <a href="" class="nav-button">Random</a>
+            <button class="nav-button" id = 'nameBtn'>By Name</button>
+            <button class="nav-button" id = 'ingredientBtn'>By Ingredient</button>
           </div>
       </nav>
     </header>
     <section class="search">
-      <form action="" class="drinkForm" id="drinkForm">
-        <input type="text" class = 'drinkInput' id = 'drinkInput'>
+      <form class="drinkForm" id="drinkForm">
+        <input type="text" placeholder = 'Name of cocktail' class = 'drinkInput' id = 'drinkInput'>
       </form>
     </section>
     <section class="results-section">
       <div class="results" id = 'results'></div>
     </section>
-    <footer>
+    <!-- <footer>
       <p>&copy 2023 Cocktails</p>
-    </footer>
+    </footer> -->
   </div>
   
   <script src="script.js"></script>
